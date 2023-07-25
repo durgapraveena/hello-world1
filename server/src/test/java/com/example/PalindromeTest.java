@@ -14,7 +14,7 @@ public class PalindromeTest{
 	@Test
     public void testWordInString() {
         String sentence = "hello world";
-        assertTrue(sentence.contains("hi"));
+        assertTrue(sentence.contains("hello"));
     }
     /* Sanity - mainline - Regresstion Test 2 - miss */
 
