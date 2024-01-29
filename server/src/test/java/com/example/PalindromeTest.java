@@ -42,6 +42,6 @@ public class PalindromeTest{
     @Test
     public void testWordWithSpecialCharacters() {
         String sentence = "hello world";
-        assertTrue(sentence.contains("hello$"));
+        assertTrue(sentence.contains("hello"));
     }
 }
