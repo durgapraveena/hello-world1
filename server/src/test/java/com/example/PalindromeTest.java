@@ -28,7 +28,7 @@ public class PalindromeTest{
     @Test
     public void testWordInEmptyString() {
         String sentence = "";
-        assertFalse(sentence.contains("hello"));
+        assertFalse(sentence.contains("hei"));
     }
     /* Corner case Test 1 - Empty */
 
