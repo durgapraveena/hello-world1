@@ -13,8 +13,8 @@ public class PalindromeTest{
 	@Test
     public void testWordInString() {
         String sentence = "hello world";
-        //assertTrue(sentence.contains("hello"));
-	assertTrue(sentence.contains("hai"));
+        assertTrue(sentence.contains("hello"));
+	//assertTrue(sentence.contains("hai"));
     }
     /* Sanity - mainline - Regresstion Test 2 - miss */
 
