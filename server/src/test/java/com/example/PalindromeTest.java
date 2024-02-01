@@ -30,7 +30,7 @@ public class PalindromeTest{
     public void testWordInEmptyString() {
         String sentence = "hello world";
         //assertFalse(sentence.contains("hello"));
-	assertFalse(sentence.contains(""));
+	assertFalse(sentence.contains(" "));
     }
     /* Corner case Test 1 - Empty */
 
