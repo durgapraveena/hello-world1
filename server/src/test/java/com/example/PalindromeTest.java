@@ -31,8 +31,8 @@ public class PalindromeTest{
         String sentence = "hello world";
         //assertFalse(sentence.contains("hello"));
 	//assertFalse(sentence.contains(""));
-	assertTrue(sentence.contains("hello"));
-	//assertTrue(sentence.contains(""));
+	//assertTrue(sentence.contains("hello"));
+	assertTrue(sentence.contains(""));
     }
     /* Corner case Test 1 - Empty */
 
