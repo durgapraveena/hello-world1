@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>Welcome to idrbt</h1>
+    <h1>Welcome to IDRBT</h1>
    
   </div>
 
