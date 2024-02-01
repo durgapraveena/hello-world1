@@ -27,14 +27,14 @@ public class PalindromeTest{
     @Test
     public void testWordInEmptyString() {
         String sentence = "";
-        assertFalse(sentence.contains("hello"));
+        assertFalse(sentence.contains("hei"));
     }
     /* Corner case Test 1 - Empty */
 
     @Test
     public void testWordInStringCaseInsensitive() {
         String sentence = "hello world";
-        assertTrue(sentence.toLowerCase().contains("hello"));
+        assertTrue(sentence.toLowerCase().contains("Hello"));
     }
        /* Corner case Test 1 - Empty */
  
