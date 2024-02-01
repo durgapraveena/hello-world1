@@ -4,17 +4,17 @@ pipeline {
     stages {
     stage('checkout') {
             steps {
-                git 'https://github.com/abhic137/hello-world-jenkins.git'
-            }
-        }
-    stage('build') {
-            steps {
-                sh "mvn clean install"
+                git 'https://github.com/durgapraveena/hello-world1.git'
             }
         }
     stage('test') {
             steps {
-                sh "mvn test"
+                sh "mvn clean test"
+            }
+        }
+    stage('build') {
+            steps {
+                sh "mvn install"
             }
         }
     stage('deploy') {
