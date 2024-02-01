@@ -28,7 +28,7 @@ public class PalindromeTest{
 
     @Test
     public void testWordInEmptyString() {
-        String sentence = "hello world";
+        String sentence = "";
         //assertFalse(sentence.contains("hello"));
 	//assertFalse(sentence.contains(""));
 	//assertTrue(sentence.contains("hello"));
